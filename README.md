@@ -1,3 +1,4 @@
+---
 What is it?
 This is a plugin to update test results in Jira in Zephyr plugin. It supports any automation framework. 
 
@@ -27,4 +28,7 @@ zephyr.updateExecution(<JIRA-ISSUE-KEY>, <STATUS>, <LOG-if-it has>)
 zephyr.bulkUpdateCompleteFolder(<STATUS>) [this will update whole folder/cycle]
 zephyr.bulkUpdateExecution(<STATUS>, <JIRA-ISSUE-KEY1>,  <JIRA-ISSUE-KEY2>,  <JIRA-ISSUE-KEY3>) [this will upadte status of multiple keys]
 
+---
 
+projects for inspiration
+https://github.com/mattrixman/zestyr
